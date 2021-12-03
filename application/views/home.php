@@ -87,7 +87,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
+    </header>
+  </div>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="#"><strong>EGVS RENT</strong></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,25 +115,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#home">HOME</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">ABOUT US</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#service">OUR SERVICE</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#package">PACKAGE</a>
-						<li class="nav-item">
-								<a class="nav-link" href="#contact">CONTACT US</a>
+                    <div class="row">
+                        <div class="col-7">
+
+                                <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">OUR SERVICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#package">PACKAGE</a>
+                            </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#contact">CONTACT US</a>
+                                    </li>
+                                </div>
+                    <div class="col-5">
+                    <li class="nav-item">
+								<a class="nav-link" href="#contact">Login</a>
 							</li>
-					</li>
+                    </div>
+                    </div>
+                            
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav> -->
 	<div class="jumbotron">
 		<h1 class="display-4">SEWA ALAT BROADCASTING ANDA SEKARANG!</h1>
 		<hr class="my-4">

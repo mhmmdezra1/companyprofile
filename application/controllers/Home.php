@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use Kreait\Firebase\Factory;
-use Kreait\Firebase\ServiceAccount;
+// use Kreait\Firebase\Factory;
+// use Kreait\Firebase\ServiceAccount;
 class Home extends CI_Controller {
 
-	protected $database;
-	protected $dbname = 'users';
+	// protected $database;
+	// protected $dbname = 'users';
 	/**
 	 * Index Page for this controller.
 	 *
@@ -28,11 +28,11 @@ class Home extends CI_Controller {
 	// }
 	public function index()
 	{
-		$this->load->library('firebase');
-		$firebase = $this->firebase->init();
-		$db = $firebase->getDatabase();
+		// $this->load->library('firebase');
+		// $firebase = $this->firebase->init();
+		// $db = $firebase->getDatabase();
 
-		echo $db;
-		// $this->load->view('home');
+		// echo $db;
+		$this->load->view('home');
 	}
 }
