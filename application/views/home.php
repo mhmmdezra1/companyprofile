@@ -1,7 +1,13 @@
-<!doctype html>
-<html lang="en" id="home">
-  <head>
-      <style>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Company Profile</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<style>
           html {
               scroll-behavior: smooth;
           }
@@ -73,75 +79,71 @@
              margin-left: 5;
          }
       </style>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
 
-    <title>Company Profile</title>
-    <link rel="stylesheet" href="fontawesome/css/all.css" href="s">
-  </head>
-  <body>
+</head>
+<body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"><strong>EGVS RENT</strong></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service">OUR SERVICE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#package">PACKAGE</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT US</a>
-                  </li>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </div>
-      </nav>
-      <div class="jumbotron">
-        <h1 class="display-4">SEWA ALAT BROADCASTING ANDA SEKARANG!</h1>
-        <hr class="my-4">
-        <p class="lead">Jasa penyewaan alat taupuna atribut vlogging maupun shooting dan lain - lain, dengan harga yang terjangkau dan proses cepat</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Sewa Sekarang</a>
-        </p>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><strong>EGVS RENT</strong></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#home">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#service">OUR SERVICE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#package">PACKAGE</a>
+						<li class="nav-item">
+								<a class="nav-link" href="#contact">CONTACT US</a>
+							</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1 class="display-4">SEWA ALAT BROADCASTING ANDA SEKARANG!</h1>
+		<hr class="my-4">
+		<p class="lead">Jasa penyewaan alat taupuna atribut vlogging maupun shooting dan lain - lain, dengan harga yang terjangkau dan proses cepat</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Sewa Sekarang</a>
+		</p>
+	</div>
+	<div class="container">
+		<div class="card text-center">
+			<div class="card-header h3">
+				Vlog <br> 
+				<span class="display-4">Rp 1.000.0000,-</span>
+			</div>
+			<div class="card-body">
+					<ul class="list-group list-group-flush mb-3">
+							<li class="list-group-item">Microphone</li>
+							<li class="list-group-item">Wireless Camera</li>
+							<li class="list-group-item">GoPro</li>
+							<li class="list-group-item">Gorilla</li>
+							<li class="list-group-item">Stabilizer</li>
+						</ul>
+				<a href="#" class="btn btn-primary rounded-pill">Sewa Sekarang</a>
+			</div>
+		</div>
+	</div>
 
-      <div class="container">
-      <div class="card text-center">
-        <div class="card-header h3">
-          Vlog <br> 
-          <span class="display-4">Rp 1.000.0000,-</span>
-        </div>
-        <div class="card-body">
-            <ul class="list-group list-group-flush mb-3">
-                <li class="list-group-item">Microphone</li>
-                <li class="list-group-item">Wireless Camera</li>
-                <li class="list-group-item">GoPro</li>
-                <li class="list-group-item">Gorilla</li>
-                <li class="list-group-item">Stabilizer</li>
-              </ul>
-          <a href="#" class="btn btn-primary rounded-pill">Sewa Sekarang</a>
-        </div>
-    </div>
-
-    <h3 class="mt-5 text-center about" id="about">ABOUT US</h3>
-    <hr class="garis">
-    <div class="bg-light text-justify p-4">
+	<h3 class="mt-5 text-center about" id="about">ABOUT US</h3>
+	<hr class="garis" />
+	
+	<div class="bg-light text-justify p-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -154,8 +156,9 @@
         </div>
     </div>
 
+		
     <h3 class="mt-5 text-center service" id="service">OUR SERVICE</h3>
-    <hr class="garis">
+    <hr class="garis" />
     <div class="container">
         <div class="row text-center mt-5">
             <div class="col-md-4">
@@ -175,6 +178,8 @@
             </div>
         </div>
     </div>
+
+		
     <div class="row text-center mt-5">
         <div class="col-md-4">
             <i class="fas fa-adjust h1"></i>
@@ -187,14 +192,16 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
         </div>
         <div class="col-md-4">
-            <i class="fas fa-address-book"></i>
+            <i class="fas fa-address-book h1"></i>
             <h5>Sewa Lightning Studio</h5>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi. 
         </div>
     </div>
 
+		
+
     <h3 class="mt-5 text-center package" id="package">PACKAGE</h3>
-    <hr class="garis">
+    <hr class="garis" />
 
     <div class="container">
         <div class="row text-center mt-5">
@@ -232,9 +239,9 @@
             </a>
         </div>
     </div>
-
+		
     <h3 class="mt-5 mb-3 text-center contact" id="contact">TESTIMONIALS</h3>
-    <hr class="garis">
+    <hr class="garis" />
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -278,12 +285,14 @@
         </a>
       </div>
 
-    <h3 class="mt-5 mb-3 text-center contact" id="contact">CONTACT US</h3>
-    <hr class="garis">
+
+			<h3 class="mt-5 mb-3 text-center contact" id="contact">CONTACT US</h3>
+    	<hr class="garis" />
 
     <div class="container">
-        <div class="col-md-7">
-            <div class="row">
+			<div class="row">
+				
+			<div class="col-md-7">
             <div class="form-group">
                 <label><strong>Nama Lengkap</strong></label>
                 <input type="text" name="" class="form-control">
@@ -301,9 +310,10 @@
         <div class="col-md-3">
             <img src="img/vlog.png" width="300px">
         </div>
+			</div>
     </div>
     </div>
-    
+		
     <footer class="mt-5 bg-dark">
         <div class="container">
             <div class="row text-white p-4 text-justify">
@@ -317,16 +327,26 @@
                 MARI BERLANGGANAN
                 <input type="text" name="" class="form-control rounded-pill mt-3" placeholder="masukkan email anda"> 
                 
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3"></button>
+                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+
                 <i class="fab fa-instagram"></i>
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3"></button>
+								</button>
+                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+								<i class="fab fa-instagram"></i>
+
+								</button>
+                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+
                 <i class="fab fa-instagram"></i>
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3"></button>
-                <i class="fab fa-instagram"></i>
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3"></button>
-                <i class="fab fa-instagram"></i>
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3"></button>
+								</button>
+                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+								<i class="fab fa-instagram"></i>
+
+								</button>
+                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+									
                 <i class="fas fa-envelope"></i>
+								</button>
                 </div>
             </div>
         </div>
@@ -342,5 +362,23 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+		<script type="module">
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			const firebaseConfig = {
+				apiKey: "AIzaSyDqpjDtCC7Wy1yneMulWCafeehM9kkgufI",
+				authDomain: "digital-invitation-74e38.firebaseapp.com",
+				databaseURL: "https://digital-invitation-74e38-default-rtdb.asia-southeast1.firebasedatabase.app",
+				projectId: "digital-invitation-74e38",
+				storageBucket: "digital-invitation-74e38.appspot.com",
+				messagingSenderId: "523286749072",
+				appId: "1:523286749072:web:bcf6f73188ba6907a39d15"
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+		</script>
+</body>
 </html>
