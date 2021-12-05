@@ -87,69 +87,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-      </a>
-
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
-      </ul>
-
-      <div class="col-md-3 text-end">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><strong>EGVS RENT</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">OUR SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#package">PACKAGE</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT US</a>
+                  </li>
+              </li>
+            </ul>
+            <div class="col-md-5 text-end">
         <button type="button" class="btn btn-outline-primary me-2">Login</button>
         <button type="button" class="btn btn-primary">Sign-up</button>
       </div>
-    </header>
-  </div>
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="#"><strong>EGVS RENT</strong></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-                    <div class="row">
-                        <div class="col-7">
-
-                                <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#home">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#service">OUR SERVICE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#package">PACKAGE</a>
-                            </li>
-                                <li class="nav-item">
-                                        <a class="nav-link" href="#contact">CONTACT US</a>
-                                    </li>
-                                </div>
-                    <div class="col-5">
-                    <li class="nav-item">
-								<a class="nav-link" href="#contact">Login</a>
-							</li>
-                    </div>
-                    </div>
-                            
-				</ul>
-			</div>
-		</div>
-	</nav> -->
+          </div>
+        </div>
+    </div>
+      </nav>
 	<div class="jumbotron">
 		<h1 class="display-4">SEWA ALAT BROADCASTING ANDA SEKARANG!</h1>
 		<hr class="my-4">
 		<p class="lead">Jasa penyewaan alat taupuna atribut vlogging maupun shooting dan lain - lain, dengan harga yang terjangkau dan proses cepat</p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Sewa Sekarang</a>
+		<a class="btn btn-primary btn-lg" href="#contact" role="button">Sewa Sekarang</a>
 		</p>
 	</div>
 	<div class="container">
@@ -193,18 +167,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
         <div class="row text-center mt-5">
             <div class="col-md-4">
-                <i class="fas fa-adjust h1"></i>
-                <h5>Sewa Alat Broadcasting System</h5>
+            <i class="fas fa-bullhorn h1"></i>
+                <h4><strong>Alat Broadcasting System</strong></h4>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
             </div>
             <div class="col-md-4">
-                <i class="fas fa-adjust h1"></i>
-                <h5>Virtual Event</h5>
+            <i class="fas fa-laptop h1"></i>
+                <h4><strong>Virtual Event</strong></h4>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
             </div>
             <div class="col-md-4">
-                <i class="fas fa-adjust h1"></i>
-                <h5>Sewa Kamera</h5>
+            <i class="fas fa-camera-retro h1"></i>
+                <h4><strong>Kamera</strong></h4>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi. 
             </div>
         </div>
@@ -213,18 +187,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
     <div class="row text-center mt-5">
         <div class="col-md-4">
-            <i class="fas fa-adjust h1"></i>
-            <h5>Sewa Video Shooting</h5>
+        <i class="fas fa-film h1"></i>
+            <h4><strong>Video Shooting</strong></h4>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
         </div>
         <div class="col-md-4">
-            <i class="fas fa-adjust h1"></i>
-            <h5>Sewa Alat Vlogging</h5>
+        <i class="fas fa-video h1"></i>
+            <h4><strong>Sewa Alat Vlogging</strong></h4>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
         </div>
         <div class="col-md-4">
-            <i class="fas fa-address-book h1"></i>
-            <h5>Sewa Lightning Studio</h5>
+        <i class="far fa-lightbulb h1"></i>
+            <h4><strong>Lightning Studio</strong></h4>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi. 
         </div>
     </div>
@@ -272,7 +246,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 		
     <h3 class="mt-5 mb-3 text-center contact" id="contact">TESTIMONIALS</h3>
-    <hr class="garis" />
+    <hr  class="garis" />
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -333,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <input type="email" name="" class="form-control">
             </div>
             <div class="form-group">
-                <label><strong>Pesan</strong></label>
+                <label><strong>Sewa</strong></label>
                 <textarea type="text" class="form-control" rows="5"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Kirim</button>
@@ -357,27 +331,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-4">
                 MARI BERLANGGANAN
                 <input type="text" name="" class="form-control rounded-pill mt-3" placeholder="masukkan email anda"> 
-                
+                <a href="https://www.instagram.com/">
                 <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
 
                 <i class="fab fa-instagram"></i>
-								</button>
+								</button></a>
+                                <a href="https://twitter.com/login">
                 <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
-								<i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
 
-								</button>
+								</button></a>
+                                <a href="https://id-id.facebook.com/">
+                                    <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+                    
+
+                <i class="fab fa-facebook-f"></i>
+								</button></a>
+                                <a href="https://id.linkedin.com/">
                 <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
+                <i class="fab fa-linkedin-in"></i>
 
-                <i class="fab fa-instagram"></i>
-								</button>
-                <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
-								<i class="fab fa-instagram"></i>
-
-								</button>
+								</button></a>
+                <a href="https://www.google.com/gmail/">
                 <button class="btn btn-outline-primary rounded-circle mr-3 mt-3">
 									
                 <i class="fas fa-envelope"></i>
-								</button>
+								</button></a>
                 </div>
             </div>
         </div>
