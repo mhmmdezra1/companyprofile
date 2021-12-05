@@ -152,11 +152,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt hic architecto officiis numquam suscipit nihil nobis, voluptatum, vel, sed alias debitis voluptates? Quo repudiandae libero explicabo modi quaerat harum.
-                </div>
+            EVGS ialah suatu perusahaan yang bergerak di bidang penyewaan alat - alat broadcasting yang relatif murah dan pertama di bogor, serta dengan alat - alat yang terbaru.        
+            </div>
                     <div class="col-md-6">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur molestiae error quisquam, blanditiis eum illum possimus nostrum? Sapiente, sit nulla molestias architecto dicta cum, quibusdam iste ullam recusandae neque obcaecati.
-                    </div>
+                EVGS juga dapat menjamin bahwa alat yang digunakan tidak ada kekurangan dan kecacatan, pengguna jadi tidak perlu lagi meragukan kualitas maupun kuantitas dari EVGS.        
+                </div>
             </div>
         </div>
     </div>
@@ -169,17 +169,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-md-4">
             <i class="fas fa-bullhorn h1"></i>
                 <h4><strong>Alat Broadcasting System</strong></h4>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
+            Kami menyediakan alat broadcasting system yang cukup lengkap untuk dapat digunakan oleh pelanggan    
             </div>
             <div class="col-md-4">
             <i class="fas fa-laptop h1"></i>
                 <h4><strong>Virtual Event</strong></h4>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
+            Kami juga menyediakan perlatan maupun atribut mengenai virtual event     
             </div>
             <div class="col-md-4">
             <i class="fas fa-camera-retro h1"></i>
                 <h4><strong>Kamera</strong></h4>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi. 
+            Kami juga menyediakan kamera yang beragam mulai dari mirrorless dan sebagainya    
             </div>
         </div>
     </div>
@@ -189,17 +189,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4">
         <i class="fas fa-film h1"></i>
             <h4><strong>Video Shooting</strong></h4>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
+        Kami juga menyediakan alat untuk orang yang ingin melakukkan video shooting tentunya dengan kelengkapan yang cukup    
         </div>
         <div class="col-md-4">
         <i class="fas fa-video h1"></i>
             <h4><strong>Sewa Alat Vlogging</strong></h4>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi.
+        Kami juga menyediakan sewa alat vlogging mulai dari vlogger pemula hingga yang professional    
         </div>
         <div class="col-md-4">
         <i class="far fa-lightbulb h1"></i>
             <h4><strong>Lightning Studio</strong></h4>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, aliquid ullam, harum ipsum beatae tenetur dolorem, ex voluptas amet commodi. 
+        Kami juga menyediakan alat lightning studio untuk menunjang dunia perfilman dan sebagainya.    
         </div>
     </div>
 
@@ -265,8 +265,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </div>
                       <div class="col-md-7 text-justify font-italic">
                           <h4>Elizabeth Licoln</h4>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur incidunt tenetur beatae molestias doloremque officia mollitia doloribus, quis nostrum! Laborum, eius ipsa. Qui, sunt! Rerum sint sit vitae eligendi totam!.
-                      </div>
+                        Terimakasih EVGS, dengan adanya EVGS kita tidak usah pusing - pusing jika tidak memiliki alat - alat broadcasting, selain harga terjangkau barang yang disewakan juga dalam kondisi yang sangat baik  
+                        </div>
                       <div class="col-md-2"></div>
                   </div>      
             </div>
@@ -323,11 +323,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row text-white p-4 text-justify">
                 <div class="col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis suscipit iusto, aperiam ea aliquid, sequi soluta eveniet fugit quam ipsum odit adipisci quidem eligendi! Neque voluptate maxime saepe fugiat. Dolor.
-                </div>
+            Contact Person :
+            
+            +628 5782 797 602
+            </div>
                 <div class="col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis suscipit iusto, aperiam ea aliquid, sequi soluta eveniet fugit quam ipsum odit adipisci quidem eligendi! Neque voluptate maxime saepe fugiat. Dolor.
-                </div>
+            Jl. Raya Bojong gede Kabupaten Bogor, Jawa Barat 16922        
+            </div>
                 <div class="col-md-4">
                 MARI BERLANGGANAN
                 <input type="text" name="" class="form-control rounded-pill mt-3" placeholder="masukkan email anda"> 
