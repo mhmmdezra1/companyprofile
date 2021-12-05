@@ -111,10 +111,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </li>
               </li>
             </ul>
-            <div class="col-md-5 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
-      </div>
           </div>
         </div>
     </div>
@@ -140,7 +136,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<li class="list-group-item">Gorilla</li>
 							<li class="list-group-item">Stabilizer</li>
 						</ul>
-				<a href="#" class="btn btn-primary rounded-pill">Sewa Sekarang</a>
 			</div>
 		</div>
 	</div>
