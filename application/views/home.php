@@ -323,12 +323,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row text-white p-4 text-justify">
                 <div class="col-md-4">
-            Contact Person :
-            
+            Contact Info :
+            <br>
             +628 5782 797 602
+            <br>
+            Jl. Raya Bojong gede Kabupaten Bogor, Jawa Barat 16922
             </div>
                 <div class="col-md-4">
-            Jl. Raya Bojong gede Kabupaten Bogor, Jawa Barat 16922        
+                    
             </div>
                 <div class="col-md-4">
                 MARI BERLANGGANAN
